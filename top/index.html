@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript">
+        var i = 0;
+        function slide() {
+            $("#anime1").animate({right: '0px'}, 1500);
+            $("#anime1").delay(800);
+            $("#anime1").animate({right: '-=300px'}, 1500, function () {
+                var path = "image/img" + (++i) % 7 + ".png";
+                $(this).css("background-image", 'url(' + path + ')');
+                slide();
+            });
+        }
+        $(document).ready(function () {
+            slide();
+        });
+    </script>
+</head>
+<body>
+<div style="position: absolute; width: 1024px; height: 220px; z-index: 1000"><img alt="" src="image/text.png"/></div>
+<div id="head"
+     style="margin: -6px 0 0 -6px; width:1024px; height: 220px; background-image: url('image/top_bg.png'); overflow: hidden; position: absolute; z-index:1">
+    <div id="anime1"
+         style="background-image: url('image/img0.png'); width:300px; height:220px;position:absolute; float: right; right: -300px">
+    </div>
+</div>
+</body>
+</html>

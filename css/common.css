@@ -1,0 +1,255 @@
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.MsoHeader, li.MsoHeader, div.MsoHeader {
+    mso-style-unhide: no;
+    mso-style-link: "页眉 Char";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    text-align: center;
+    mso-pagination: widow-orphan;
+    tab-stops: center 207.65pt right 415.3pt;
+    layout-grid-mode: char;
+    border: none;
+    mso-border-bottom-alt: solid windowtext .75pt;
+    padding: 0cm;
+    mso-padding-alt: 0cm 0cm 1.0pt 0cm;
+    font-size: 9.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.MsoFooter, li.MsoFooter, div.MsoFooter {
+    mso-style-unhide: no;
+    mso-style-link: "页锟斤拷 Char";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    tab-stops: center 207.65pt right 415.3pt;
+    layout-grid-mode: char;
+    font-size: 9.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+a:link, span.MsoHyperlink {
+    mso-style-unhide: no;
+    color: blue;
+    text-decoration: underline;
+    text-underline: single;
+}
+
+a:visited, span.MsoHyperlinkFollowed {
+    mso-style-unhide: no;
+    color: purple;
+    text-decoration: underline;
+    text-underline: single;
+}
+
+span.Char {
+    mso-style-name: "页眉 Char";
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-link: 页眉;
+    mso-ansi-font-size: 9.0pt;
+    mso-bidi-font-size: 9.0pt;
+    font-family: \00CB\00CE\00CC\00E5;
+    mso-ascii-font-family: \00CB\00CE\00CC\00E5;
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+    mso-hansi-font-family: \00CB\00CE\00CC\00E5;
+}
+
+span.Char0 {
+    mso-style-name: "页锟斤拷 Char";
+    mso-style-unhide: no;
+    mso-style-locked: yes;
+    mso-style-link: 页锟斤拷;
+    mso-ansi-font-size: 9.0pt;
+    mso-bidi-font-size: 9.0pt;
+    font-family: \00CB\00CE\00CC\00E5;
+    mso-ascii-font-family: \00CB\00CE\00CC\00E5;
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+    mso-hansi-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.msonormal1, li.msonormal1, div.msonormal1 {
+    mso-style-name: msonormal1;
+    mso-style-unhide: no;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.p8, li.p8, div.p8 {
+    mso-style-name: p8;
+    mso-style-unhide: no;
+    mso-margin-top-alt: auto;
+    margin-right: 0cm;
+    mso-margin-bottom-alt: auto;
+    margin-left: 0cm;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: \00CB\00CE\00CC\00E5;
+    mso-bidi-font-family: \00CB\00CE\00CC\00E5;
+}
+
+span.msonormal0 {
+    mso-style-name: msonormal;
+    mso-style-unhide: no;
+}
+
+span.apple-converted-space {
+    mso-style-name: apple-converted-space;
+    mso-style-unhide: no;
+}
+
+span.SpellE {
+    mso-style-name: "";
+    mso-spl-e: yes;
+}
+
+span.GramE {
+    mso-style-name: "";
+    mso-gram-e: yes;
+}
+
+.MsoChpDefault {
+    mso-style-type: export-only;
+    mso-default-props: yes;
+    font-size: 10.0pt;
+    mso-ansi-font-size: 10.0pt;
+    mso-bidi-font-size: 10.0pt;
+    mso-ascii-font-family: "Times New Roman";
+    mso-hansi-font-family: "Times New Roman";
+    mso-font-kerning: 0pt;
+}
+
+ol {
+    margin-bottom: 0cm;
+}
+
+ul {
+    margin-bottom: 0cm;
+}
+
+div.MsoNormal2 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+li.MsoNormal2 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.MsoNormal2 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+div.MsoNormal3 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+li.MsoNormal3 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.MsoNormal3 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+div.MsoNormal4 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+li.MsoNormal4 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}
+
+p.MsoNormal4 {
+    mso-style-unhide: no;
+    mso-style-qformat: yes;
+    mso-style-parent: "";
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    mso-pagination: widow-orphan;
+    font-size: 12.0pt;
+    font-family: "Times New Roman", "serif";
+    mso-fareast-font-family: \00CB\00CE\00CC\00E5;
+}

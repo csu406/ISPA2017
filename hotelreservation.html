@@ -1,0 +1,234 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>IEEE ISPA 2017 hotelresevation</title>
+
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.4.0&key=2a0c2d524c86fad5f195f3aa2f398ade"></script>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+ /* Page Definitions */
+ @page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+div.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;}
+li.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;}
+p.MsoNormal1 {mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;}
+span.SpellE {mso-style-name:"";
+	mso-spl-e:yes;}
+.STYLE2 {font-size: 24px}
+-->
+</style>
+</head>
+<body lang=ZH-CN link=blue vlink=purple style='text-justify-trim:punctuation'>
+<h2>Welcome to Guangzhou! </h2>
+
+<h3>Conference Venue</h3>
+<p>Guangdong Hotel, Guangzhou, China: A 4-star hotel<br>
+（广东大厦）<br />
+<a href="http://www.guangdong-hotel.com/app/action/hotel/do_change_locale.php?locale=en-us" target="_blank">http://www.guangdong-hotel.com/</a></p>
+<h3>Special Rate for the Conference</h3>
+<table width="500" border="1">
+  <tbody>
+    <tr>
+      <th bgcolor="#FFCC66" scope="col">Room Type</th>
+      <th bgcolor="#FFCC66" scope="col">Conference Price</th>
+    </tr>
+    <tr>
+      <td>Comfort Room with One or Two Beds</td>
+      <td>RMB340</td>
+    </tr>
+    <tr>
+      <td>Superior Room with One or Two Beds</td>
+      <td>RMB390</td>
+    </tr>
+    <tr>
+      <td>Garden View Room with One or Two Beds</td>
+      <td>RMB410</td>
+    </tr>
+        <tr>
+      <td>Business Room with One or Two Beds</td>
+      <td>RMB490</td>
+    </tr>
+    <tr>
+        <td>Superior Suite</td>
+        <td>RMB900</td>
+    </tr>
+  </tbody>
+</table>
+<p><span lang="EN-US" xml:lang="EN-US">* The above hotel fee does not include breakfast, which is RMB40 Yuan for each person. <br />
+  ** We guarantee that you can get a room when you arrive at the hotel if you book now; but, we cannot guarantee that you will get the exact room type since we adopt the First-Come-First-Serve model for you to get a room. <br />
+  *** The special rate for conference can enjoy the following benefits:<br>
+   1. Free Wash Set<br>
+    2. Free Broadband Internet Access<br>
+    3. Check-out Time is 1:30 pm</span></p>
+<h3>Hotel Reservation and Notices</h3>
+<p>1. Please do the hotel reservation as soon as possible by filling the Hotel Reservation Form [<a href="doc/Hotel-English.doc" target="_blank">English</a>] [<a href="doc/Hotel-Chinese.doc" target="_blank">中文版</a>].</span></p>
+<p>2. Please send your reservation form to Dr. Pin Liu (<a href="mailto:GuangzhouConf2017@gmail.com">GuangzhouConf2017@gmail.com</a>). Once you get a confirmation email from Dr.Pin Liu, then your reservation is complete. If you do not get a confirmation in 3 days, please resend your reservation form.</span></p>
+<p>3. Once you have made the hotel reservation, we may not be able to accept any change for another type of hotel reservation.</span></p>
+<p>4. If you do not make hotel reservation before <span style="color: red">November 11, 2017</span>, you may not be able to use the special rate for the conference when you arrive at the hotel. In the worst case, you can not live in the conference hotel if already fully booked.</span></p>
+<h3>Map of Conference Hotel</h3>
+<p>Guangdong Hotel, Guangzhou, China<br>
+Address: <span lang="EN-US" xml:lang="EN-US">309 Dongfengzhong Road, Guangzhou, China</span></p>
+<div style="width:700px;height:550px;border:#ccc solid 1px;font-size:12px;" id="mapContainer"></div>
+<div class="button-group">
+    <input id="en" type="button" class="button" value="English Map" />
+    <input id="zh_en" type="button" class="button" value="中英文对照" />
+    <input id="zh_cn" type="button" class="button" value="中文地图" />
+</div>
+
+<h3>Public Transportation</h3>
+
+<p>(1) From Guangzhou Baiyun International Airport （IATA code: CAN) to Guangdong Hotel: Take a taxi (around RMB90); or first take the Metro Line #3 at Airport South Station, then transfer to Line #2 at Jiahewanggang Station (bound for Guangzhou South Station), and take off at Sun Yat-sen Memorial Hall Station, Exit D2, then walk around 500m to the hotel, taking about 50 mins for the entire trip; Similar for the return trip.
+</p>
+<p>广州白云国际机场到广东大厦：大约26公里，在地铁3号线北延段（体育西路方向）“机场南”站上车，乘坐到“嘉禾望岗”换乘地铁2号线（广州南站方向），到“纪念堂”站下车，从D2出口再步行500米到酒店，全程约50分钟；或乘坐的士（约90元）；返程类似。</p>
+
+<p>(2) From Guangzhou  Railway Station to Guangdong Hotel: Take a taxi (around RMB20); or first take the Metro Line #2 at Guangzhou Railway Station (bound for Guangzhou South Station), and take off at Sun Yat-sen Memorial Hall Station, Exit D2, then walk around 500m to the hotel, taking about 15 mins for the entire trip; Similar for the return trip.</p>
+<p>广州火车站到广东大厦：大约3公里，在地铁2号线（广州南站方向）“广州火车站”站上车，乘坐到“纪念堂”站下车，从D2出口再步行500米到酒店，全程约15分钟；或乘坐的士（约20元）；返程类似。</p>
+
+<p>(3) From Guangzhou South Railway Station to Guangdong Hotel: Take a taxi (around RMB70); or first take the Metro Line #2 at Guangzhou South Railway Station (bound for Jiahewanggang Station), and take off at Sun Yat-sen Memorial Hall Station, Exit D2, then walk around 500m to the hotel, taking about 50 mins for the entire trip; Similar for the return trip.</p>
+<p>广州南高铁站到广东大厦：大约20公里，在地铁2号线（嘉禾望岗方向）“广州南”站上车，乘坐到“纪念堂”站下车，从D2出口再步行500米到酒店，全程约50分钟；或乘坐的士（约70元）；返程类似。</p>
+<h6>&nbsp;</h6>
+<hr>
+
+</div><!--end container-->
+
+
+</body>
+<script>
+    var map = new AMap.Map('mapContainer', {
+        center: [113.267540, 23.131976],
+        zoom: 18
+    });
+    map.setLang('en');
+    openInfo();
+
+    ['en', 'zh_en', 'zh_cn'].forEach(function(btn) {
+        var button = document.getElementById(btn);
+        AMap.event.addDomListener(button,'click',clickListener)
+    });
+
+    function clickListener() {
+        map.setLang(this.id);
+    }
+
+    function openInfo() {
+        //构建信息窗体中显示的内容
+        var info = [];
+        info.push("<div style=\"padding:0px 0px 0px 4px;\"><b>Guangdong Hotel</b>");
+        info.push("Tel : (8620) 83339933   Zip : 510045");
+        info.push("Add : 309 Dongfengzhong Road, Guangzhou, China</div></div>");
+        infoWindow = new AMap.InfoWindow({
+            content: info.join("<br/>")  //使用默认信息窗体框样式，显示信息内容
+        });
+        infoWindow.open(map, map.getCenter());
+    }
+</script>
+<!--<script type="text/javascript">-->
+    <!--//创建和初始化地图函数：-->
+    <!--function initMap(){-->
+      <!--createMap();//创建地图-->
+      <!--setMapEvent();//设置地图事件-->
+      <!--addMapControl();//向地图添加控件-->
+      <!--addMapOverlay();//向地图添加覆盖物-->
+    <!--}-->
+    <!--function createMap(){-->
+      <!--map = new BMap.Map("map");-->
+      <!--map.centerAndZoom(new BMap.Point(113.273951,23.138269),18);-->
+    <!--}-->
+    <!--function setMapEvent(){-->
+      <!--map.enableScrollWheelZoom();-->
+      <!--map.enableKeyboard();-->
+      <!--map.enableDragging();-->
+      <!--map.enableDoubleClickZoom()-->
+    <!--}-->
+    <!--function addClickHandler(target,window){-->
+      <!--target.addEventListener("click",function(){-->
+        <!--target.openInfoWindow(window);-->
+      <!--});-->
+    <!--}-->
+    <!--function addMapOverlay(){-->
+      <!--var markers = [-->
+        <!--{content:"广州市越秀区东风中路309号",title:"广东大厦",imageOffset: {width:-46,height:-21},position:{lat:23.138269,lng:113.273951}},-->
+      <!--];-->
+      <!--for(var index = 0; index < markers.length; index++ ){-->
+        <!--var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);-->
+        <!--var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{-->
+          <!--imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)-->
+        <!--})});-->
+        <!--var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});-->
+        <!--var opts = {-->
+          <!--width: 200,-->
+          <!--title: markers[index].title,-->
+          <!--enableMessage: false-->
+        <!--};-->
+        <!--var infoWindow = new BMap.InfoWindow(markers[index].content,opts);-->
+        <!--marker.setLabel(label);-->
+        <!--addClickHandler(marker,infoWindow);-->
+        <!--map.addOverlay(marker);-->
+      <!--};-->
+      <!--var labels = [-->
+      <!--];-->
+      <!--for(var index = 0; index < labels.length; index++){-->
+        <!--var opt = { position: new BMap.Point(labels[index].position.lng,labels[index].position.lat )};-->
+        <!--var label = new BMap.Label(labels[index].content,opt);-->
+        <!--map.addOverlay(label);-->
+      <!--};-->
+    <!--}-->
+    <!--//向地图添加控件-->
+    <!--function addMapControl(){-->
+      <!--var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});-->
+      <!--scaleControl.setUnit(BMAP_UNIT_IMPERIAL);-->
+      <!--map.addControl(scaleControl);-->
+      <!--var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});-->
+      <!--map.addControl(navControl);-->
+      <!--var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});-->
+      <!--map.addControl(overviewControl);-->
+    <!--}-->
+    <!--var map;-->
+      <!--initMap();-->
+  <!--</script>-->
+</html>
